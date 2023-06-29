@@ -1,0 +1,57 @@
+body {
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(35,35,35);
+    color: rgb(237,237,237);
+}
+
+.header {
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.results {
+    text-align: center;
+}
+
+.avaliacoes {
+    background-color: rgb(35,35,35);
+    height: 80%;
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+    /* From https://css.glass */
+    border-radius: 16px;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.botao-avaliacao {
+    width: 150px;
+    height: 76px;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, rgb(255,70,10) 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 4px;
+    box-shadow: 6px 0px 0px rgb(237,237,237);
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-align: center;
+    padding-top: 5px;
+    margin: 5px;
+}
+
