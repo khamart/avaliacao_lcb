@@ -135,4 +135,13 @@ body {
     border-radius: 3px;
     background-color: rgb(255,70,10);
     color: rgb(237,237,237);
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: ridge;
+}
+
+.screen {
+    background-color: rgb(35,35,35);
+    border-radius: 16px;
 }
