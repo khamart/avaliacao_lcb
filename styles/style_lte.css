@@ -142,6 +142,10 @@ body {
     border: ridge;
 }
 
+.submit-button:active {
+    background-color: rgb(237,237,237);
+}
+
 .screen {
     background-color: rgb(35,35,35);
     border-radius: 16px;
