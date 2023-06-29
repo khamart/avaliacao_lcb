@@ -128,7 +128,8 @@ body {
 }
 
 .submit {
-    margin-top: 5px;
+    display: flex;
+    padding-bottom: 5px;
 }
 
 .submit-button {
