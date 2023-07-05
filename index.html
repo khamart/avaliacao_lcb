@@ -18,7 +18,44 @@
     </div>
     <div class="results">
         <h2 class="title">Resultados</h1>
-        <p class="temporary">Ainda não disponível</p>
+        <select id="mes" name="mes" class="mes" onchange="updateGraphs()">
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <div class="graficos">
+            <div class="gauge gauge_lco">
+                <h3 class="oficina">LC</h3>
+                <div class="gauge__body">
+                  <div class="gauge__fill"></div>
+                  <div class="gauge__cover"></div>
+                </div>
+            </div>
+            <div class="gauge gauge_lte">
+                <h3 class="oficina">LI</h3>
+                <div class="gauge__body">
+                  <div class="gauge__fill"></div>
+                  <div class="gauge__cover"></div>
+                </div>
+            </div>
+            <div class="gauge gauge_jar">
+                <h3 class="oficina">JD</h3>
+                <div class="gauge__body">
+                  <div class="gauge__fill"></div>
+                  <div class="gauge__cover"></div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="js/graphs.js"></script>
 </body>
 </html>
